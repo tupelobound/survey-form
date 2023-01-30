@@ -109,6 +109,9 @@ textarea {
     box-sizing: border-box;
     border-radius: 0px;
   }
+  #title {
+    padding: 15px
+  }
   #survey-form {
     grid-template-columns: 1fr;
     justify-items: center;
