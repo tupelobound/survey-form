@@ -84,6 +84,7 @@ textarea {
   background-color: #75B3FF;
 }
 
+/* Media rules for different screen widths */
 @media (max-width: 1000px) {
   body {
     font-size: 70%;
