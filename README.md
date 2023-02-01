@@ -1,5 +1,5 @@
 # survey-form
-freeCodeCamp Responsive Web Design project
+freeCodeCamp Responsive Web Design project - Build a Survey Form
 
 Simple survey form project forming part of the Responsive Web Design Certificate
 
