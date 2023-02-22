@@ -89,6 +89,7 @@ textarea {
   body {
     font-size: 70%;
   }
+
   #container {
     width: 600px;
   }
@@ -103,7 +104,7 @@ textarea {
 @media (max-width: 500px) {
   body {
     font-size: 90%;
-    margin: 0p;
+    margin: 0;
   }
 
   #container {
