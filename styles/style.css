@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,300i&display=swap');
 
 body {
-  background-color: #C1DDFF;
+  background-color: #c1ddff;
   font-family: 'Roboto', sans-serif;
   text-align: center;
 }
@@ -30,21 +30,21 @@ body {
 
 .label-2 {
   justify-self: right;
-  margin: 0px;
+  margin: 0;
 }
 
 .input {
   justify-self: left;
   width: 50%;
-  height:25px;
-  border: 1px solid #C1DDFF;
+  height: 25px;
+  border: 1px solid #c1ddff;
   border-radius: 5px;
 }
 
 #dropdown {
   width: 40%;
   height: 30px;
-  border: 1px solid #C1DDFF;
+  border: 1px solid #c1ddff;
   border-radius: 5px;
 }
 
@@ -64,7 +64,7 @@ textarea {
   width: 70%;
   height: 100px;
   border-radius: 5px;
-  border: 1px solid #C1DDFF;
+  border: 1px solid #c1ddff;
   resize: none;
 }
 
@@ -75,13 +75,13 @@ textarea {
   font-size: 18px;
   border-radius: 5px;
   border: none;
-  background-color: #C1DDFF;
+  background-color: #c1ddff;
   font-family: 'Roboto', sans-serif;
   margin: 20px auto;
 }
 
 #submit:hover {
-  background-color: #75B3FF;
+  background-color: #75b3ff;
 }
 
 /* Media rules for different screen widths */
@@ -103,30 +103,37 @@ textarea {
 @media (max-width: 500px) {
   body {
     font-size: 90%;
-    margin: 0px;
+    margin: 0p;
   }
+
   #container {
     padding: 10px;
     box-sizing: border-box;
-    border-radius: 0px;
+    border-radius: 0;
   }
+
   #title {
-    padding: 15px
+    padding: 15px;
   }
+
   #survey-form {
     grid-template-columns: 1fr;
     justify-items: center;
     grid-row-gap: 7px;
   }
+
   #submit {
     grid-column: 1/2;
   }
+
   .label {
     justify-self: center;
   }
+
   .label-2 {
     justify-self: center;
   }
+
   .input {
     justify-self: center;
   }
